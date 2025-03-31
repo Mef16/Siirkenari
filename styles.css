@@ -1,0 +1,36 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Başlık stil ayarları */
+header h1 {
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px 0;
+}
+
+/* Şiir bölümü stil ayarları */
+.poetry ul {
+    list-style: none;
+    padding: 0;
+}
+
+.poetry li {
+    background: #ecf0f1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.poetry a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+.poetry a:hover {
+    text-decoration: underline;
+}
